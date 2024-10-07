@@ -1,0 +1,50 @@
+---
+title: Welcome to Notionpaper
+description: Notionpaper is a tool that helps you use Notion like a CMS.
+template: splash
+hero:
+  tagline: A tool that helps you use Notion like a CMS
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Read Docs
+      link: /guides/example/
+      icon: right-arrow
+    - text: Take a Look at a Demo Site
+      link: https://dreambulare.com
+      icon: external
+      variant: minimal
+---
+
+import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+## Features
+
+<CardGrid>
+  <Card title="Write free in Notion" icon="open-book">
+    Supports most of Notion blocks.
+  </Card>
+  <Card title="Better SEO" icon="information">
+    Generate static sites that loads fast & SEO friendly.
+  </Card>
+</CardGrid>
+
+## Next steps
+
+<CardGrid>
+  <LinkCard
+    title="How it Works"
+    href="/guides/authoring-content/"
+    description="Explore what is Notionpaper."
+  />
+  <LinkCard
+    title="Tutorial"
+    href="/guides/authoring-content/"
+    description="Start building your first site."
+  />
+  <LinkCard
+    title="Dev Guide"
+    href="/guides/authoring-content/"
+    description="Explore the APIs."
+  />
+</CardGrid>
