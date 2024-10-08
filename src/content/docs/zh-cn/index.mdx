@@ -1,6 +1,6 @@
 ---
 title: 欢迎使用NOTIONPAPER
-description: 首页
+description: Notionpaper是一个帮助你像CMS一样使用Notion的工具
 template: splash
 hero:
   tagline: 一个帮助你像CMS一样使用Notion的工具
@@ -8,10 +8,39 @@ hero:
     file: ../../../assets/houston.webp
   actions:
     - text: 查看文档
-      link: /zh-cn/guides/example/
+      link: /zh-cn/0usage/0intro
       icon: right-arrow
     - text: 查看示例站点
       link: https://dreambulare.com
       icon: external
       variant: minimal
 ---
+
+import { Card, LinkCard, CardGrid } from "@astrojs/starlight/components";
+
+## Features
+
+<CardGrid>
+  <Card title="在Notion中自由写作" icon="open-book">
+    支持Notion中大多数的类型。
+  </Card>
+  <Card title="更好的SEO" icon="information">
+    生成的静态网站拥有更快的速度和更好的SEO表现。
+  </Card>
+</CardGrid>
+
+## Next steps
+
+<CardGrid>
+
+  <LinkCard
+    title="教程"
+    href="/zh-cn/0usage/0intro"
+    description="开始创建第一个站点"
+  />
+  <LinkCard
+    title="开发"
+    href="/zh-cn/1dev/0intro"
+    description="探索API"
+  />
+</CardGrid>

@@ -1,0 +1,29 @@
+---
+title: Notion API Token 申请
+description: Notionpaper 使用介绍
+sidebar:
+  # Set a custom label for the link
+  label: Step 2. Notion API Token 申请
+  # Set a custom order for the link (lower numbers are displayed higher up)
+  order: 2
+---
+
+import { Steps } from "@astrojs/starlight/components";
+
+然后申请一个 API Token 来访问内容。
+
+<Steps>
+
+1. 到 https://www.notion.so/my-integrations 点击任意一处的 `create new integration`:![image](./src/2token/step1.png)
+
+2. 在这里:
+
+   - `Type`和`Logo`可以不用动
+   - `Associated Workspace` 选择你存放数据库的 Workspace
+   - `Name` 中取一个名字
+
+   ![image](./src/2token/step2.png)
+
+3. 点击`Submit` 后，保存`Internal Integration Secret`到一个安全的地方 ![image](./src/2token/step3.png)
+
+</Steps>
