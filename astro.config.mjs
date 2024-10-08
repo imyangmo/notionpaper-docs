@@ -18,10 +18,10 @@ export default defineConfig({
           lang: "en",
         },
         // Simplified Chinese docs in `src/content/docs/zh-cn/`
-        "zh-cn": {
-          label: "简体中文",
-          lang: "zh-CN",
-        },
+        // "zh-cn": {
+        //   label: "简体中文",
+        //   lang: "zh-CN",
+        // },
       },
       sidebar: [
         // {
@@ -35,7 +35,7 @@ export default defineConfig({
         // 	],
         // },
         {
-          label: "Usage",
+          label: "Usage Guide",
           translations: {
             "zh-CN": "使用教程",
           },
